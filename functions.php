@@ -145,7 +145,7 @@ function umb_catch_that_image()
     $first_img = isset($matches[1][0]) ? $matches[1][0] : null;
 
     if (empty($first_img)) {
-        $first_img = get_stylesheet_directory_uri() . '/assets/images/victor-grabarczyk-cwcKxz3RQMc-unsplash.jpg';
+        $first_img = get_stylesheet_directory_uri() . '/assets/images/StockSnap_6FWJIMOBNQ2.jpg';
     }
     return $first_img;
 }
